@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>FontFX — 在 Canva 直接完成中文字特效</title>
-<meta name="description" content="不用再切換 Photoshop，直接在 Canva 畫布內完成中文斜體、霓虹、描邊、漸層特效。一次付費，永久使用。">
+<title>FontFX — Chinese Text Effects Right Inside Canva</title>
+<meta name="description" content="No more switching to Photoshop. Create Chinese italic, neon, stroke, and gradient text effects directly inside Canva. Pay once, use forever.">
 <meta name="theme-color" content="#FBF8F4">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&family=Noto+Serif+TC:wght@400;600;700;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:wght@400&family=Inter:wght@300;400;500;600;700;900&family=Noto+Serif+TC:wght@400;600;700;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 :root {
   --bg: #FAF8F5;
@@ -36,8 +36,8 @@
   --sage-light: #E0E8DE;
   --grad: linear-gradient(135deg, #B08060, #C4A68E);
   --grad-soft: linear-gradient(135deg, #EDE4DA, #E8E3DC);
-  --font-h: 'Noto Serif TC', serif;
-  --font-b: 'Noto Sans TC', sans-serif;
+  --font-h: 'DM Serif Display', serif;
+  --font-b: 'Inter', sans-serif;
   --font-m: 'JetBrains Mono', monospace;
   --ease: cubic-bezier(0.16,1,0.3,1);
   --spring: cubic-bezier(0.34,1.56,0.64,1);
@@ -261,16 +261,16 @@ footer a:hover{color:var(--morandi-rose);}
 <body>
 
 <!-- ═══════ NAV ═══════ -->
-<nav aria-label="主選單">
+<nav aria-label="Main menu">
   <div class="wrap">
     <a href="#" class="nav-logo">Font<span class="fx">FX</span></a>
     <ul class="nav-links">
-      <li><a href="#demo">功能展示</a></li>
-      <li><a href="#pricing">方案</a></li>
-      <li><a href="#faq">常見問題</a></li>
-      <li><a href="en.html">EN</a></li>
+      <li><a href="#demo">Features</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="index.html">中文</a></li>
     </ul>
-    <a href="#pricing" class="btn btn-main btn-sm">立即解鎖</a>
+    <a href="#pricing" class="btn btn-main btn-sm">Unlock Now</a>
   </div>
 </nav>
 
@@ -278,29 +278,29 @@ footer a:hover{color:var(--morandi-rose);}
 <section class="hero">
   <div class="wrap">
     <div class="hero-inner rv">
-      <h1 class="h1">不用離開 Canva<br>直接完成<span class="hl">中文字特效</span>與排版</h1>
+      <h1 class="h1">Without Leaving Canva<br>Create <span class="hl">Chinese Text Effects</span> &amp; Layouts Instantly</h1>
       <p class="hero-sub">
-        不用再來回切 Photoshop 或 Illustrator<br>
-        一個畫布內完成傾斜、霓虹、描邊與貼紙設計
+        No more switching between Photoshop or Illustrator.<br>
+        Italic, neon, stroke, and sticker designs — all in one canvas.
       </p>
       <div class="hero-cta-row">
-        <a href="#pricing" class="btn btn-main">立即解鎖中文字特效</a>
-        <a href="#demo" class="btn btn-ghost">看看效果差多少 ↓</a>
+        <a href="#pricing" class="btn btn-main">Unlock Chinese Text Effects</a>
+        <a href="#demo" class="btn btn-ghost">See the difference ↓</a>
       </div>
     </div>
 
     <!-- Before / After -->
     <div class="compare-box rv rv-d1">
-      <p class="compare-label">同一段文字，效果差這麼多</p>
+      <p class="compare-label">Same text, worlds apart</p>
       <div class="compare-grid">
         <!-- BEFORE -->
         <div class="compare-side before">
-          <span class="compare-tag bad">Canva 原生</span>
-          <span style="font-family:var(--font-h);font-size:2.5rem;font-weight:900;color:var(--text-3);opacity:.35;margin-bottom:10px;">創意設計</span>
+          <span class="compare-tag bad">Canva Native</span>
+          <span style="font-family:'Noto Serif TC',serif;font-size:2.5rem;font-weight:900;color:var(--text-3);opacity:.35;margin-bottom:10px;">創意設計</span>
           <div style="display:flex;gap:6px;flex-wrap:wrap;justify-content:center;">
-            <span style="font-size:.62rem;padding:2px 8px;background:rgba(160,145,125,0.1);color:var(--text-3);border-radius:100px;">無法斜體</span>
-            <span style="font-size:.62rem;padding:2px 8px;background:rgba(160,145,125,0.1);color:var(--text-3);border-radius:100px;">無特效</span>
-            <span style="font-size:.62rem;padding:2px 8px;background:rgba(160,145,125,0.1);color:var(--text-3);border-radius:100px;">無描邊</span>
+            <span style="font-size:.62rem;padding:2px 8px;background:rgba(160,145,125,0.1);color:var(--text-3);border-radius:100px;">No italic</span>
+            <span style="font-size:.62rem;padding:2px 8px;background:rgba(160,145,125,0.1);color:var(--text-3);border-radius:100px;">No effects</span>
+            <span style="font-size:.62rem;padding:2px 8px;background:rgba(160,145,125,0.1);color:var(--text-3);border-radius:100px;">No stroke</span>
           </div>
         </div>
 
@@ -310,9 +310,9 @@ footer a:hover{color:var(--morandi-rose);}
         <!-- AFTER -->
         <div class="compare-side after">
           <span class="compare-tag good">FontFX</span>
-          <span style="font-family:var(--font-h);font-size:2.5rem;font-weight:900;display:inline-block;transform:skewX(-12deg);background:linear-gradient(135deg,#B08060,#C4A68E);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;filter:drop-shadow(0 2px 8px rgba(176,128,96,0.25));margin-bottom:8px;">創意設計</span>
-          <span style="font-family:var(--font-h);font-size:1.2rem;font-weight:700;color:var(--morandi-blue);text-shadow:0 0 8px rgba(140,154,165,0.45),0 0 18px rgba(140,154,165,0.2);margin-bottom:4px;">柔光發光效果</span>
-          <span style="font-family:var(--font-h);font-size:1.05rem;font-weight:900;color:var(--morandi-peach);-webkit-text-stroke:1.5px var(--text);paint-order:stroke fill;text-shadow:1px 1px 0 rgba(60,50,40,.12);">描邊風格字</span>
+          <span style="font-family:'Noto Serif TC',serif;font-size:2.5rem;font-weight:900;display:inline-block;transform:skewX(-12deg);background:linear-gradient(135deg,#B08060,#C4A68E);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;filter:drop-shadow(0 2px 8px rgba(176,128,96,0.25));margin-bottom:8px;">創意設計</span>
+          <span style="font-family:'Noto Serif TC',serif;font-size:1.2rem;font-weight:700;color:var(--morandi-blue);text-shadow:0 0 8px rgba(140,154,165,0.45),0 0 18px rgba(140,154,165,0.2);margin-bottom:4px;">Soft glow effect</span>
+          <span style="font-family:'Noto Serif TC',serif;font-size:1.05rem;font-weight:900;color:var(--morandi-peach);-webkit-text-stroke:1.5px var(--text);paint-order:stroke fill;text-shadow:1px 1px 0 rgba(60,50,40,.12);">Stroke style text</span>
         </div>
       </div>
     </div>
@@ -322,25 +322,25 @@ footer a:hover{color:var(--morandi-rose);}
 <!-- ═══════ 2. PAIN POINTS ═══════ -->
 <section>
   <div class="wrap">
-    <h2 class="h2 center rv">你是不是也卡在這些地方？</h2>
+    <h2 class="h2 center rv">Stuck with these problems?</h2>
     <div class="pain-list">
       <div class="pain-item rv">
         <div class="pain-icon">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
         </div>
-        <p><strong>想做中文斜體字</strong>，但 Canva 完全不支援——只能匯出到 Photoshop 處理，再貼回 Canva</p>
+        <p><strong>Want Chinese italic text</strong>, but Canva doesn't support it at all — you have to export to Photoshop, edit there, then paste it back into Canva</p>
       </div>
       <div class="pain-item rv rv-d1">
         <div class="pain-icon">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
         </div>
-        <p><strong>做特效要開兩套軟體</strong>，Canva → Photoshop → 存圖 → 貼回 Canva，流程混亂又耗時</p>
+        <p><strong>Text effects require two apps</strong> — Canva → Photoshop → save image → paste back into Canva. A messy, time-consuming workflow</p>
       </div>
       <div class="pain-item rv rv-d2">
         <div class="pain-icon">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8v4l3 3"/><circle cx="12" cy="12" r="10"/></svg>
         </div>
-        <p><strong>花了 10 分鐘調整</strong>，最後效果還是不理想——要是能在 Canva 裡直接搞定就好了</p>
+        <p><strong>Spent 10 minutes tweaking</strong>, and the result still looks off — if only you could do it all directly inside Canva</p>
       </div>
     </div>
   </div>
@@ -351,7 +351,7 @@ footer a:hover{color:var(--morandi-rose);}
   <div class="wrap">
     <div class="center rv">
       <div class="label">Solution</div>
-      <h2 class="h2">現在，你可以在 Canva <span class="hl">一次完成</span></h2>
+      <h2 class="h2">Now, do it all <span class="hl">inside Canva</span></h2>
     </div>
 
     <div class="value-grid">
@@ -359,39 +359,39 @@ footer a:hover{color:var(--morandi-rose);}
         <div class="value-icon">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--morandi-rose)" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 3v18M3 9h18"/></svg>
         </div>
-        <h3 class="h3">畫布內直接操作</h3>
-        <p>不用離開 Canva，在外掛面板輸入文字、調整效果，一鍵放進設計</p>
+        <h3 class="h3">Work directly on canvas</h3>
+        <p>No need to leave Canva. Type text, adjust effects in the app panel, and add to your design with one click</p>
       </div>
       <div class="value-card rv rv-d1">
         <div class="value-icon">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--morandi-mauve)" stroke-width="1.8"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
         </div>
-        <h3 class="h3">不用切換軟體</h3>
-        <p>告別 Canva ↔ Photoshop 的來回，所有中文字特效一個外掛搞定</p>
+        <h3 class="h3">No more app-switching</h3>
+        <p>Say goodbye to the Canva ↔ Photoshop back-and-forth. One app handles all Chinese text effects</p>
       </div>
       <div class="value-card rv rv-d2">
         <div class="value-icon">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--morandi-sage)" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
         </div>
-        <h3 class="h3">幾秒完成效果</h3>
-        <p>選風格預設或手動微調，IG、Reels 視覺效果馬上產出</p>
+        <h3 class="h3">Effects in seconds</h3>
+        <p>Pick a style preset or fine-tune manually. IG, Reels visuals ready in an instant</p>
       </div>
     </div>
 
     <div class="time-compare rv">
-      <div class="old">原本：開 Photoshop → 做效果 → 存圖 → 貼回 Canva ＝ 5–10 分鐘</div>
-      <div class="new">現在：<span class="hl">FontFX 一鍵套用 ＝ 30 秒完成</span></div>
+      <div class="old">Before: Open Photoshop → create effect → save image → paste back into Canva = 5-10 min</div>
+      <div class="new">Now: <span class="hl">FontFX one-click apply = 30 seconds</span></div>
     </div>
   </div>
 </section>
 
-<!-- ═══════ 4. DEMO — 3 步驟 ═══════ -->
+<!-- ═══════ 4. DEMO — 3 Steps ═══════ -->
 <section id="demo">
   <div class="wrap">
     <div class="center rv">
       <div class="label">How It Works</div>
-      <h2 class="h2">3 步驟完成中文字特效</h2>
-      <p class="sub" style="max-width:500px;margin:8px auto 0;">從輸入到完成，不到 30 秒</p>
+      <h2 class="h2">3 Steps to Chinese Text Effects</h2>
+      <p class="sub" style="max-width:500px;margin:8px auto 0;">From input to done in under 30 seconds</p>
     </div>
 
     <div class="steps-grid">
@@ -401,19 +401,19 @@ footer a:hover{color:var(--morandi-rose);}
           <div class="step-num">1</div>
           <div style="display:flex;flex-direction:column;align-items:center;gap:8px;">
             <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:10px;padding:10px 20px;width:200px;box-shadow:var(--shadow-sm);">
-              <div style="font-size:.58rem;color:var(--text-3);margin-bottom:4px;">輸入文字</div>
-              <div style="font-family:var(--font-h);font-size:1.15rem;font-weight:700;color:var(--text);">今日必看推薦</div>
+              <div style="font-size:.58rem;color:var(--text-3);margin-bottom:4px;">Enter text</div>
+              <div style="font-family:'Noto Serif TC',serif;font-size:1.15rem;font-weight:700;color:var(--text);">今日必看推薦</div>
             </div>
             <div style="display:flex;gap:6px;">
-              <span style="font-size:.58rem;padding:3px 8px;background:var(--accent-light);color:var(--accent-deep);border-radius:100px;">蘋方</span>
+              <span style="font-size:.58rem;padding:3px 8px;background:var(--accent-light);color:var(--accent-deep);border-radius:100px;">PingFang</span>
               <span style="font-size:.58rem;padding:3px 8px;background:var(--lavender-light);color:var(--lavender);border-radius:100px;">48px</span>
-              <span style="font-size:.58rem;padding:3px 8px;background:var(--sage-light);color:var(--sage);border-radius:100px;">粗體</span>
+              <span style="font-size:.58rem;padding:3px 8px;background:var(--sage-light);color:var(--sage);border-radius:100px;">Bold</span>
             </div>
           </div>
         </div>
         <div class="step-body">
-          <h3>輸入文字、選字體</h3>
-          <p>在外掛面板輸入中文，選擇 22 種內建字體或上傳自訂字體</p>
+          <h3>Type text, pick a font</h3>
+          <p>Enter Chinese text in the app panel. Choose from 22 built-in fonts or upload your own</p>
         </div>
       </div>
 
@@ -422,17 +422,17 @@ footer a:hover{color:var(--morandi-rose);}
         <div class="step-visual s2">
           <div class="step-num">2</div>
           <div style="display:flex;flex-direction:column;align-items:center;gap:8px;">
-            <span style="font-family:var(--font-h);font-size:1.7rem;font-weight:900;display:inline-block;transform:skewX(-12deg);background:linear-gradient(135deg,#B08060,#C4A68E);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;filter:drop-shadow(1px 2px 0 rgba(60,50,40,.1));">今日必看</span>
+            <span style="font-family:'Noto Serif TC',serif;font-size:1.7rem;font-weight:900;display:inline-block;transform:skewX(-12deg);background:linear-gradient(135deg,#B08060,#C4A68E);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;filter:drop-shadow(1px 2px 0 rgba(60,50,40,.1));">今日必看</span>
             <div style="display:flex;gap:4px;flex-wrap:wrap;justify-content:center;">
-              <span style="font-size:.55rem;padding:2px 7px;background:var(--accent-light);color:var(--accent-deep);border-radius:100px;">斜體 12°</span>
-              <span style="font-size:.55rem;padding:2px 7px;background:var(--lavender-light);color:var(--lavender);border-radius:100px;">雙描邊</span>
-              <span style="font-size:.55rem;padding:2px 7px;background:rgba(198,184,165,0.2);color:var(--morandi-sand);border-radius:100px;">漸層</span>
+              <span style="font-size:.55rem;padding:2px 7px;background:var(--accent-light);color:var(--accent-deep);border-radius:100px;">Italic 12°</span>
+              <span style="font-size:.55rem;padding:2px 7px;background:var(--lavender-light);color:var(--lavender);border-radius:100px;">Dual stroke</span>
+              <span style="font-size:.55rem;padding:2px 7px;background:rgba(198,184,165,0.2);color:var(--morandi-sand);border-radius:100px;">Gradient</span>
             </div>
           </div>
         </div>
         <div class="step-body">
-          <h3>選特效、調風格</h3>
-          <p>套用預設風格或手動調整斜體角度、描邊、漸層、陰影、弧形排列</p>
+          <h3>Choose effects &amp; style</h3>
+          <p>Apply a style preset or manually adjust italic angle, stroke, gradient, shadow, and arc layout</p>
         </div>
       </div>
 
@@ -442,16 +442,16 @@ footer a:hover{color:var(--morandi-rose);}
           <div class="step-num">3</div>
           <div style="display:flex;flex-direction:column;align-items:center;gap:8px;">
             <div style="background:var(--bg-card);border:1.5px dashed var(--sage);border-radius:10px;padding:14px 20px;display:flex;align-items:center;gap:10px;box-shadow:var(--shadow-sm);">
-              <span style="font-family:var(--font-h);font-size:1.3rem;font-weight:900;display:inline-block;transform:skewX(-12deg);background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">今日必看</span>
+              <span style="font-family:'Noto Serif TC',serif;font-size:1.3rem;font-weight:900;display:inline-block;transform:skewX(-12deg);background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">今日必看</span>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--sage)" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
             </div>
-            <span style="font-size:.68rem;color:var(--sage);font-weight:500;">已加入 Canva 畫布</span>
-            <span style="font-size:.58rem;color:var(--text-3);">點擊元素可隨時重新編輯</span>
+            <span style="font-size:.68rem;color:var(--sage);font-weight:500;">Added to Canva canvas</span>
+            <span style="font-size:.58rem;color:var(--text-3);">Click the element to re-edit anytime</span>
           </div>
         </div>
         <div class="step-body">
-          <h3>一鍵加入設計</h3>
-          <p>按「加入設計」放進畫布。點擊元素隨時可回到外掛重新編輯</p>
+          <h3>Add to your design</h3>
+          <p>Click "Add to Design" to place it on canvas. Click the element anytime to reopen the app and edit</p>
         </div>
       </div>
     </div>
@@ -463,7 +463,7 @@ footer a:hover{color:var(--morandi-rose);}
   <div class="wrap">
     <div class="center rv">
       <div class="label">Features</div>
-      <h2 class="h2">你能做到的事</h2>
+      <h2 class="h2">What You Can Do</h2>
     </div>
 
     <div class="features-bento">
@@ -471,46 +471,46 @@ footer a:hover{color:var(--morandi-rose);}
       <div class="feat rv">
         <div class="feat-demo">
           <div style="display:flex;gap:14px;align-items:baseline;">
-            <span style="font-family:var(--font-h);font-size:1.7rem;font-weight:900;color:var(--text-3);opacity:.3;">字</span>
-            <span style="font-family:var(--font-h);font-size:1.7rem;font-weight:900;transform:skewX(-12deg);display:inline-block;color:var(--text-2);">字</span>
-            <span style="font-family:var(--font-h);font-size:1.7rem;font-weight:900;transform:skewX(-25deg);display:inline-block;background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">字</span>
+            <span style="font-family:'Noto Serif TC',serif;font-size:1.7rem;font-weight:900;color:var(--text-3);opacity:.3;">字</span>
+            <span style="font-family:'Noto Serif TC',serif;font-size:1.7rem;font-weight:900;transform:skewX(-12deg);display:inline-block;color:var(--text-2);">字</span>
+            <span style="font-family:'Noto Serif TC',serif;font-size:1.7rem;font-weight:900;transform:skewX(-25deg);display:inline-block;background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">字</span>
           </div>
         </div>
-        <h4>斜體 0°–35°</h4>
-        <p>CJK 字體自由傾斜，Canva 原生做不到的功能</p>
+        <h4>Italic 0°–35°</h4>
+        <p>Freely tilt CJK fonts — a feature Canva natively can't do</p>
       </div>
 
       <!-- Effects -->
       <div class="feat wide rv rv-d1">
         <div class="feat-demo" style="gap:18px;">
-          <span style="font-family:var(--font-h);font-size:1.3rem;font-weight:900;color:var(--morandi-blue);text-shadow:0 0 8px rgba(143,165,181,0.5),0 0 18px rgba(143,165,181,0.25);">霓虹</span>
-          <span style="font-family:var(--font-h);font-size:1.3rem;font-weight:900;color:var(--morandi-sand);text-shadow:1px 1px 0 #a89480,2px 2px 0 #96836e,3px 3px 0 #847264;">3D</span>
-          <span style="font-family:var(--font-h);font-size:1.3rem;font-weight:900;background:linear-gradient(180deg,#D4C4A0,#A08860,#D4C4A0,#907850);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">金屬</span>
-          <span style="font-family:var(--font-h);font-size:1.3rem;font-weight:900;color:var(--text);text-shadow:0 0 16px rgba(176,128,96,.5);">發光</span>
-          <span style="font-family:var(--font-h);font-size:1.3rem;font-weight:900;color:var(--morandi-mauve);-webkit-text-stroke:1px rgba(60,50,40,.15);paint-order:stroke fill;text-shadow:1px 1px 0 rgba(60,50,40,.08);">氣泡</span>
+          <span style="font-family:'Noto Serif TC',serif;font-size:1.3rem;font-weight:900;color:var(--morandi-blue);text-shadow:0 0 8px rgba(143,165,181,0.5),0 0 18px rgba(143,165,181,0.25);">Neon</span>
+          <span style="font-family:'Noto Serif TC',serif;font-size:1.3rem;font-weight:900;color:var(--morandi-sand);text-shadow:1px 1px 0 #a89480,2px 2px 0 #96836e,3px 3px 0 #847264;">3D</span>
+          <span style="font-family:'Noto Serif TC',serif;font-size:1.3rem;font-weight:900;background:linear-gradient(180deg,#D4C4A0,#A08860,#D4C4A0,#907850);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">Metal</span>
+          <span style="font-family:'Noto Serif TC',serif;font-size:1.3rem;font-weight:900;color:var(--text);text-shadow:0 0 16px rgba(176,128,96,.5);">Glow</span>
+          <span style="font-family:'Noto Serif TC',serif;font-size:1.3rem;font-weight:900;color:var(--morandi-mauve);-webkit-text-stroke:1px rgba(60,50,40,.15);paint-order:stroke fill;text-shadow:1px 1px 0 rgba(60,50,40,.08);">Bubble</span>
         </div>
-        <h4>10 種視覺特效</h4>
-        <p>霓虹、3D、金屬、外發光、內陰影、長陰影、鏡像倒影、氣泡字、故障——每種可調強度與方向</p>
+        <h4>10 Visual Effects</h4>
+        <p>Neon, 3D, metallic, outer glow, inner shadow, long shadow, mirror reflection, bubble, glitch — each with adjustable intensity and direction</p>
       </div>
 
       <!-- Stroke -->
       <div class="feat rv">
         <div class="feat-demo">
-          <span style="font-family:var(--font-h);font-size:1.9rem;font-weight:900;color:var(--morandi-peach);-webkit-text-stroke:2px var(--text);paint-order:stroke fill;position:relative;display:inline-block;">
+          <span style="font-family:'Noto Serif TC',serif;font-size:1.9rem;font-weight:900;color:var(--morandi-peach);-webkit-text-stroke:2px var(--text);paint-order:stroke fill;position:relative;display:inline-block;">
             <span style="position:absolute;top:0;left:0;-webkit-text-stroke:6px var(--bg-card);z-index:-1;color:var(--morandi-peach);">描邊</span>描邊
           </span>
         </div>
-        <h4>雙層描邊 + 陰影</h4>
-        <p>內外兩層描邊獨立控制，搭配 XY 偏移陰影</p>
+        <h4>Dual Stroke + Shadow</h4>
+        <p>Inner and outer strokes controlled independently, combined with XY offset shadow</p>
       </div>
 
       <!-- Gradient -->
       <div class="feat rv rv-d1">
         <div class="feat-demo">
-          <span style="font-family:var(--font-h);font-size:1.7rem;font-weight:900;background:linear-gradient(90deg,#B08060,#C4A68E,#BFB09C,#8E9E8C,#8C9AA5,#9E9488);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">自然色漸層</span>
+          <span style="font-family:'Noto Serif TC',serif;font-size:1.7rem;font-weight:900;background:linear-gradient(90deg,#B08060,#C4A68E,#BFB09C,#8E9E8C,#8C9AA5,#9E9488);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">Natural Gradient</span>
         </div>
-        <h4>漸層填色</h4>
-        <p>線性 / 放射模式，2-5 色停靠點自由拖曳</p>
+        <h4>Gradient Fill</h4>
+        <p>Linear / radial modes with 2-5 color stops, freely adjustable</p>
       </div>
 
       <!-- Arc -->
@@ -518,53 +518,53 @@ footer a:hover{color:var(--morandi-rose);}
         <div class="feat-demo">
           <svg viewBox="0 0 180 100" width="155" height="85" style="overflow:visible;">
             <defs><path id="ap" d="M 10,90 A 90,90 0 0,1 170,90" fill="none"/><linearGradient id="ag" x1="0%" y1="0%" x2="100%"><stop offset="0%" style="stop-color:#B08060"/><stop offset="100%" style="stop-color:#C4A68E"/></linearGradient></defs>
-            <text fill="url(#ag)" font-family="'Noto Serif TC',serif" font-weight="900" font-size="17"><textPath href="#ap" startOffset="50%" text-anchor="middle">弧形文字排列</textPath></text>
+            <text fill="url(#ag)" font-family="'Noto Serif TC',serif" font-weight="900" font-size="17"><textPath href="#ap" startOffset="50%" text-anchor="middle">Arc Text Layout</textPath></text>
           </svg>
         </div>
-        <h4>弧形排列</h4>
-        <p>半徑 50-500px 自由調整，做徽章、封章</p>
+        <h4>Arc Layout</h4>
+        <p>Radius from 50-500px, freely adjustable — perfect for badges and seals</p>
       </div>
 
       <!-- Presets -->
       <div class="feat wide rv">
         <div class="feat-demo" style="gap:5px;flex-wrap:wrap;padding:4px 8px;">
-          <span style="padding:3px 10px;border-radius:100px;font-size:.62rem;font-weight:500;border:1px solid rgba(176,128,96,.3);color:var(--morandi-rose);background:rgba(176,128,96,.06);">TikTok 標題</span>
-          <span style="padding:3px 10px;border-radius:100px;font-size:.62rem;font-weight:500;border:1px solid rgba(212,168,154,.3);color:var(--morandi-peach);background:rgba(212,168,154,.06);">小紅書封面</span>
-          <span style="padding:3px 10px;border-radius:100px;font-size:.62rem;font-weight:500;border:1px solid rgba(143,165,181,.3);color:var(--morandi-blue);background:rgba(143,165,181,.06);">抖音標題</span>
-          <span style="padding:3px 10px;border-radius:100px;font-size:.62rem;font-weight:500;border:1px solid rgba(198,184,165,.3);color:var(--morandi-sand);background:rgba(198,184,165,.06);">漫畫風</span>
-          <span style="padding:3px 10px;border-radius:100px;font-size:.62rem;font-weight:500;border:1px solid rgba(176,141,171,.3);color:var(--morandi-mauve);background:rgba(176,141,171,.06);">80 復古</span>
-          <span style="padding:3px 10px;border-radius:100px;font-size:.62rem;font-weight:500;border:1px solid rgba(198,184,165,.3);color:var(--morandi-sand);background:rgba(198,184,165,.06);">金屬金</span>
-          <span style="padding:3px 10px;border-radius:100px;font-size:.62rem;font-weight:500;border:1px solid rgba(143,165,181,.3);color:var(--morandi-blue);background:rgba(143,165,181,.06);">霓虹派對</span>
-          <span style="padding:3px 10px;border-radius:100px;font-size:.62rem;font-weight:500;border:1px solid rgba(176,141,171,.3);color:var(--morandi-mauve);background:rgba(176,141,171,.06);">可愛氣泡</span>
-          <span style="padding:3px 10px;border-radius:100px;font-size:.62rem;font-weight:500;border:1px solid rgba(176,128,96,.3);color:var(--morandi-rose);background:rgba(176,128,96,.06);">火焰文字</span>
-          <span style="padding:3px 10px;border-radius:100px;font-size:.62rem;font-weight:500;border:1px solid var(--border);color:var(--text-3);background:rgba(180,160,140,.04);">+ 更多</span>
+          <span style="padding:3px 10px;border-radius:100px;font-size:.62rem;font-weight:500;border:1px solid rgba(176,128,96,.3);color:var(--morandi-rose);background:rgba(176,128,96,.06);">TikTok Title</span>
+          <span style="padding:3px 10px;border-radius:100px;font-size:.62rem;font-weight:500;border:1px solid rgba(212,168,154,.3);color:var(--morandi-peach);background:rgba(212,168,154,.06);">Xiaohongshu Cover</span>
+          <span style="padding:3px 10px;border-radius:100px;font-size:.62rem;font-weight:500;border:1px solid rgba(143,165,181,.3);color:var(--morandi-blue);background:rgba(143,165,181,.06);">Douyin Title</span>
+          <span style="padding:3px 10px;border-radius:100px;font-size:.62rem;font-weight:500;border:1px solid rgba(198,184,165,.3);color:var(--morandi-sand);background:rgba(198,184,165,.06);">Comic Style</span>
+          <span style="padding:3px 10px;border-radius:100px;font-size:.62rem;font-weight:500;border:1px solid rgba(176,141,171,.3);color:var(--morandi-mauve);background:rgba(176,141,171,.06);">80s Retro</span>
+          <span style="padding:3px 10px;border-radius:100px;font-size:.62rem;font-weight:500;border:1px solid rgba(198,184,165,.3);color:var(--morandi-sand);background:rgba(198,184,165,.06);">Metallic Gold</span>
+          <span style="padding:3px 10px;border-radius:100px;font-size:.62rem;font-weight:500;border:1px solid rgba(143,165,181,.3);color:var(--morandi-blue);background:rgba(143,165,181,.06);">Neon Party</span>
+          <span style="padding:3px 10px;border-radius:100px;font-size:.62rem;font-weight:500;border:1px solid rgba(176,141,171,.3);color:var(--morandi-mauve);background:rgba(176,141,171,.06);">Cute Bubble</span>
+          <span style="padding:3px 10px;border-radius:100px;font-size:.62rem;font-weight:500;border:1px solid rgba(176,128,96,.3);color:var(--morandi-rose);background:rgba(176,128,96,.06);">Flame Text</span>
+          <span style="padding:3px 10px;border-radius:100px;font-size:.62rem;font-weight:500;border:1px solid var(--border);color:var(--text-3);background:rgba(180,160,140,.04);">+ more</span>
         </div>
-        <h4>32+ 風格預設 + 自訂儲存</h4>
-        <p>免費版 10 款基礎預設，Premium 全部 32+ 款含持續更新</p>
+        <h4>32+ Style Presets + Custom Save</h4>
+        <p>Free plan includes 10 basic presets. Premium unlocks all 32+ with ongoing updates</p>
       </div>
 
       <!-- Plate + Fonts + Resolution -->
       <div class="feat rv">
         <div class="feat-demo">
           <div style="display:flex;flex-direction:column;gap:8px;align-items:center;">
-            <span style="font-family:var(--font-h);font-weight:700;font-size:.82rem;padding:5px 16px;color:white;background:var(--morandi-rose);border-radius:6px;">圓角矩形</span>
-            <span style="font-family:var(--font-h);font-weight:700;font-size:.82rem;padding:5px 20px;color:white;background:var(--morandi-mauve);border-radius:100px;">膠囊標籤</span>
+            <span style="font-family:var(--font-h);font-weight:700;font-size:.82rem;padding:5px 16px;color:white;background:var(--morandi-rose);border-radius:6px;">Rounded Rect</span>
+            <span style="font-family:var(--font-h);font-weight:700;font-size:.82rem;padding:5px 20px;color:white;background:var(--morandi-mauve);border-radius:100px;">Capsule Tag</span>
           </div>
         </div>
-        <h4>文字底板</h4>
-        <p>圓角矩形或膠囊底板，可調透明度與內距</p>
+        <h4>Text Plate</h4>
+        <p>Rounded rectangle or capsule background plate with adjustable opacity and padding</p>
       </div>
 
       <div class="feat rv rv-d1">
         <div class="feat-demo">
           <div style="display:flex;flex-direction:column;align-items:center;gap:2px;">
-            <span style="font-family:var(--font-h);font-weight:700;font-size:.95rem;color:var(--text);">蘋方 · 思源 · 楷體</span>
+            <span style="font-family:'Noto Serif TC',serif;font-weight:700;font-size:.95rem;color:var(--text);">PingFang · Source Han · Kaiti</span>
             <span style="font-family:var(--font-b);font-size:.78rem;color:var(--text-2);">Montserrat · Lobster</span>
-            <span style="font-family:var(--font-m);font-size:.58rem;color:var(--morandi-rose);margin-top:4px;">6 中文 + 16 英文 + 自訂上傳</span>
+            <span style="font-family:var(--font-m);font-size:.58rem;color:var(--morandi-rose);margin-top:4px;">6 Chinese + 16 English + custom upload</span>
           </div>
         </div>
-        <h4>22 種字體</h4>
-        <p>內建中英文字體，還可上傳 TTF/OTF/WOFF2</p>
+        <h4>22 Fonts</h4>
+        <p>Built-in Chinese and English fonts, plus upload your own TTF/OTF/WOFF2</p>
       </div>
 
       <div class="feat rv rv-d2">
@@ -577,8 +577,8 @@ footer a:hover{color:var(--morandi-rose);}
             </div>
           </div>
         </div>
-        <h4>多解析度 PNG 輸出</h4>
-        <p>1x / 2x / 3x 解析度，大圖輸出不失真</p>
+        <h4>Multi-Resolution PNG Output</h4>
+        <p>1x / 2x / 3x resolution — crisp output even at large sizes</p>
       </div>
     </div>
   </div>
@@ -589,7 +589,7 @@ footer a:hover{color:var(--morandi-rose);}
   <div class="wrap">
     <div class="center rv">
       <div class="label">Who Is This For</div>
-      <h2 class="h2">適合這些人使用</h2>
+      <h2 class="h2">Who Is This For</h2>
     </div>
 
     <div class="audience-grid">
@@ -597,22 +597,22 @@ footer a:hover{color:var(--morandi-rose);}
         <span class="audience-icon" style="background:var(--accent-light);" aria-hidden="true">
           <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="var(--morandi-rose)" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
         </span>
-        <h3 class="h3">社群小編</h3>
-        <p>每天要出好幾張圖，需要快速產出搶眼的中文標題字效</p>
+        <h3 class="h3">Social Media Managers</h3>
+        <p>Pumping out multiple graphics daily and need eye-catching Chinese title effects, fast</p>
       </div>
       <div class="audience-card rv rv-d1">
         <span class="audience-icon" style="background:var(--lavender-light);" aria-hidden="true">
           <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="var(--morandi-mauve)" stroke-width="1.5"><path d="M23 7l-7 5 7 5V7z"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
         </span>
-        <h3 class="h3">自媒體創作者</h3>
-        <p>IG 貼文、Reels 封面、YouTube 縮圖——需要快速產出視覺效果</p>
+        <h3 class="h3">Content Creators</h3>
+        <p>IG posts, Reels covers, YouTube thumbnails — need quick visual effects for every piece of content</p>
       </div>
       <div class="audience-card rv rv-d2">
         <span class="audience-icon" style="background:var(--sage-light);" aria-hidden="true">
           <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="var(--morandi-sage)" stroke-width="1.5"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><path d="M3 6h18M16 10a4 4 0 01-8 0"/></svg>
         </span>
-        <h3 class="h3">電商設計</h3>
-        <p>促銷 Banner、商品圖文字特效，快速產出大量素材</p>
+        <h3 class="h3">E-commerce Designers</h3>
+        <p>Promo banners, product image text effects — produce high volumes of assets quickly</p>
       </div>
     </div>
   </div>
@@ -623,8 +623,8 @@ footer a:hover{color:var(--morandi-rose);}
   <div class="wrap">
     <div class="center rv">
       <div class="label">Pricing</div>
-      <h2 class="h2">一次付費，永久使用</h2>
-      <p class="sub" style="max-width:440px;margin:8px auto 0;">免費版就能做很多事，$14.9 USD 一次買斷解鎖全部</p>
+      <h2 class="h2">Pay Once, Use Forever</h2>
+      <p class="sub" style="max-width:440px;margin:8px auto 0;">The free plan already does a lot. $14.9 USD one-time payment unlocks everything</p>
     </div>
 
     <div class="pricing-box">
@@ -632,36 +632,36 @@ footer a:hover{color:var(--morandi-rose);}
       <div class="plan rv">
         <span class="plan-badge free-b">Free</span>
         <div class="plan-price"><span class="sm">$</span>0</div>
-        <p class="plan-desc">每日 5 次加入設計，體驗核心功能</p>
+        <p class="plan-desc">5 uses per day to experience the core features</p>
         <ul class="plan-features">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="var(--sage)" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>斜體角度、文字大小、粗體</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="var(--sage)" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>單色 / 線性 / 放射漸層填色</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="var(--sage)" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>內描邊（單層）+ 基本陰影</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="var(--sage)" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>外發光、內陰影（2 種特效）</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="var(--sage)" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>10 款基礎風格預設</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="var(--sage)" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>22 款內建字體</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="var(--sage)" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>PNG 輸出（1x）</li>
-          <li class="off"><svg viewBox="0 0 24 24" fill="none" stroke="var(--text-3)" stroke-width="2"><path d="M5 12h14"/></svg>外描邊 · 進階特效 · 弧形 · 底板</li>
-          <li class="off"><svg viewBox="0 0 24 24" fill="none" stroke="var(--text-3)" stroke-width="2"><path d="M5 12h14"/></svg>自訂字體上傳 · 2x/3x 高解析度</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="var(--sage)" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>Italic angle, text size, bold</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="var(--sage)" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>Solid / linear / radial gradient fill</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="var(--sage)" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>Inner stroke (single layer) + basic shadow</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="var(--sage)" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>Outer glow + inner shadow (2 effects)</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="var(--sage)" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>10 basic style presets</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="var(--sage)" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>22 built-in fonts</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="var(--sage)" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>PNG output (1x)</li>
+          <li class="off"><svg viewBox="0 0 24 24" fill="none" stroke="var(--text-3)" stroke-width="2"><path d="M5 12h14"/></svg>Outer stroke · advanced effects · arc · plate</li>
+          <li class="off"><svg viewBox="0 0 24 24" fill="none" stroke="var(--text-3)" stroke-width="2"><path d="M5 12h14"/></svg>Custom font upload · 2x/3x high resolution</li>
         </ul>
-        <a href="#" class="plan-btn outline">免費安裝</a>
+        <a href="#" class="plan-btn outline">Install Free</a>
       </div>
       <!-- Premium -->
       <div class="plan pro rv rv-d1">
-        <span class="plan-badge pro-b">Premium — 終身</span>
-        <div class="plan-price"><span class="sm">$</span>14.9 <span class="period">USD / 一次性</span></div>
-        <p class="plan-desc">所有功能完整解鎖，無限使用，未來更新免費</p>
+        <span class="plan-badge pro-b">Premium — Lifetime</span>
+        <div class="plan-price"><span class="sm">$</span>14.9 <span class="period">USD / one-time</span></div>
+        <p class="plan-desc">All features fully unlocked, unlimited use, free future updates</p>
         <ul class="plan-features">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="var(--sage)" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>免費版所有功能</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="var(--sage)" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg><strong>全部 10 種特效</strong>（+3D、霓虹、金屬、氣泡…）</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="var(--sage)" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg><strong>雙層描邊</strong>（內 + 外獨立控制）</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="var(--sage)" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg><strong>弧形排列 + 文字底板</strong></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="var(--sage)" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg><strong>自訂字體上傳</strong>（TTF/OTF/WOFF2）</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="var(--sage)" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg><strong>32+ 風格預設</strong>（含持續更新）</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="var(--sage)" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg><strong>1x / 2x / 3x 多解析度輸出</strong></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="var(--sage)" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg><strong>無限使用次數</strong></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="var(--sage)" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>Everything in Free</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="var(--sage)" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg><strong>All 10 effects</strong> (+3D, neon, metallic, bubble...)</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="var(--sage)" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg><strong>Dual stroke</strong> (inner + outer, independent control)</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="var(--sage)" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg><strong>Arc text + text plate</strong></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="var(--sage)" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg><strong>Custom font upload</strong> (TTF/OTF/WOFF2)</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="var(--sage)" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg><strong>32+ style presets</strong> (with ongoing updates)</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="var(--sage)" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg><strong>1x / 2x / 3x multi-resolution output</strong></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="var(--sage)" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg><strong>Unlimited uses</strong></li>
         </ul>
-        <a href="#" class="plan-btn primary">$14.9 一次買斷，立即解鎖</a>
+        <a href="#" class="plan-btn primary">$14.9 one-time — Unlock now</a>
       </div>
     </div>
   </div>
@@ -674,9 +674,9 @@ footer a:hover{color:var(--morandi-rose);}
       <div class="guarantee-icon">
         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="var(--sage)" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
       </div>
-      <h3 class="h3" style="font-size:1.15rem;">無風險試用</h3>
+      <h3 class="h3" style="font-size:1.15rem;">Risk-Free Guarantee</h3>
       <p style="color:var(--text-2);font-size:.93rem;line-height:1.75;margin-top:8px;">
-        購買後 <strong style="color:var(--sage);">7 天內</strong>不滿意可全額退款，沒有任何風險。
+        Full refund within <strong style="color:var(--sage);">7 days</strong> of purchase if you're not satisfied. Zero risk.
       </p>
     </div>
   </div>
@@ -687,53 +687,53 @@ footer a:hover{color:var(--morandi-rose);}
   <div class="wrap">
     <div class="center rv">
       <div class="label">FAQ</div>
-      <h2 class="h2">常見問題</h2>
+      <h2 class="h2">Frequently Asked Questions</h2>
     </div>
 
     <div class="faq-list">
       <div class="faq-item rv">
         <div class="faq-q" tabindex="0" role="button" aria-expanded="false">
-          FontFX 支援哪些功能？
+          What features does FontFX support?
           <span class="arrow">▼</span>
         </div>
         <div class="faq-a">
-          <p>免費版包含：斜體角度、漸層填色、單層描邊、基本陰影、外發光與內陰影特效、10 款預設、22 款字體、PNG 1x 輸出。Premium 額外解鎖：全部 10 種特效（3D、霓虹、金屬、長陰影、倒影、氣泡、故障等）、雙層描邊、弧形排列、文字底板、自訂字體上傳、32+ 預設、PNG 1x/2x/3x 多解析度輸出、無限使用次數。</p>
+          <p>The Free plan includes: italic angle, gradient fill, single-layer stroke, basic shadow, outer glow and inner shadow effects, 10 presets, 22 fonts, and PNG 1x output. Premium additionally unlocks: all 10 effects (3D, neon, metallic, long shadow, reflection, bubble, glitch, etc.), dual stroke, arc layout, text plate, custom font upload, 32+ presets, PNG 1x/2x/3x multi-resolution output, and unlimited uses.</p>
         </div>
       </div>
       <div class="faq-item rv rv-d1">
         <div class="faq-q" tabindex="0" role="button" aria-expanded="false">
-          需要設計基礎嗎？
+          Do I need design experience?
           <span class="arrow">▼</span>
         </div>
         <div class="faq-a">
-          <p>完全不需要。免費版就有 10 款基礎預設可用，Premium 則有 32 款以上（小紅書封面、TikTok 標題、抖音風格等），一鍵套用就能產出專業效果。如果想微調，所有參數都有滑桿可以直覺操作。</p>
+          <p>Not at all. The Free plan comes with 10 basic presets, and Premium offers 32+ (Xiaohongshu covers, TikTok titles, Douyin styles, etc.) — one click to produce professional results. If you want to fine-tune, every parameter has an intuitive slider.</p>
         </div>
       </div>
       <div class="faq-item rv rv-d2">
         <div class="faq-q" tabindex="0" role="button" aria-expanded="false">
-          買斷後，未來更新需要再付費嗎？
+          Do future updates cost extra after buying?
           <span class="arrow">▼</span>
         </div>
         <div class="faq-a">
-          <p>不需要。一次購買即永久使用，未來的功能更新和 Canva 版本相容性維護都包含在內，不會再收取任何費用。</p>
+          <p>No. One purchase gives you lifetime access. Future feature updates and Canva version compatibility maintenance are all included — no additional charges ever.</p>
         </div>
       </div>
       <div class="faq-item rv">
         <div class="faq-q" tabindex="0" role="button" aria-expanded="false">
-          支援 Canva 的未來版本嗎？
+          Will it support future Canva versions?
           <span class="arrow">▼</span>
         </div>
         <div class="faq-a">
-          <p>是的，FontFX 會持續維護，確保與 Canva 最新版本相容。我們使用 Canva 官方 App SDK 開發，跟隨 Canva 的 API 更新。</p>
+          <p>Yes. FontFX is continuously maintained to ensure compatibility with the latest Canva versions. We build with the official Canva App SDK and follow Canva's API updates.</p>
         </div>
       </div>
       <div class="faq-item rv rv-d1">
         <div class="faq-q" tabindex="0" role="button" aria-expanded="false">
-          放進畫布的文字可以再修改嗎？
+          Can I edit text after adding it to the canvas?
           <span class="arrow">▼</span>
         </div>
         <div class="faq-a">
-          <p>可以。FontFX 使用 Canva 的 App Element API，放進畫布的文字保留完整編輯能力——點擊元素就會重新打開外掛面板，你可以修改文字內容、角度、特效等所有參數。</p>
+          <p>Yes. FontFX uses Canva's App Element API, so text placed on the canvas retains full editing capability — click the element to reopen the app panel, where you can modify the text content, angle, effects, and all other parameters.</p>
         </div>
       </div>
     </div>
@@ -744,9 +744,9 @@ footer a:hover{color:var(--morandi-rose);}
 <section class="final-cta">
   <div class="wrap">
     <div class="rv">
-      <h2 class="h2" style="margin-bottom:14px;">不要再為了中文字特效<br>來回切軟體了</h2>
-      <p class="sub" style="max-width:440px;margin:0 auto 32px;">現在就讓 Canva 一次完成</p>
-      <a href="#pricing" class="btn btn-main">立即解鎖中文字特效<span class="price-in-btn">$14.9 USD</span></a>
+      <h2 class="h2" style="margin-bottom:14px;">Stop switching between apps<br>for Chinese text effects</h2>
+      <p class="sub" style="max-width:440px;margin:0 auto 32px;">Let Canva handle it all, right now</p>
+      <a href="#pricing" class="btn btn-main">Unlock Chinese Text Effects<span class="price-in-btn">$14.9 USD</span></a>
     </div>
   </div>
 </section>
@@ -754,7 +754,7 @@ footer a:hover{color:var(--morandi-rose);}
 <!-- ═══════ FOOTER ═══════ -->
 <footer>
   <div class="wrap">
-    <p>&copy; 2026 FontFX &middot; <a href="#">隱私權政策</a> &middot; <a href="#">使用條款</a> &middot; <a href="mailto:support@fontfx.app">聯繫我們</a></p>
+    <p>&copy; 2026 FontFX &middot; <a href="#">Privacy Policy</a> &middot; <a href="#">Terms of Service</a> &middot; <a href="mailto:support@fontfx.app">Contact Us</a></p>
   </div>
 </footer>
 
