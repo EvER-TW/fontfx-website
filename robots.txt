@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://font-fx.com/sitemap.xml
