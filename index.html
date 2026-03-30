@@ -250,6 +250,7 @@ footer a:hover{color:var(--morandi-rose);}
   .value-grid,.steps-grid,.audience-grid{grid-template-columns:1fr 1fr;}
   .features-bento{grid-template-columns:1fr 1fr;}
   .feat.wide{grid-column:auto;}
+  .feat.wide:last-child{grid-column:span 2;}
   .pricing-box{grid-template-columns:1fr;max-width:420px;}
   .nav-links{display:none;}
   .nav-hamburger{display:block;}
@@ -506,21 +507,21 @@ footer a:hover{color:var(--morandi-rose);}
     </div>
 
     <div class="features-bento">
-      <!-- Italic -->
-      <div class="feat rv">
-        <div class="feat-demo">
-          <div style="display:flex;gap:14px;align-items:baseline;">
-            <span style="font-family:var(--font-h);font-size:1.7rem;font-weight:900;color:var(--text-3);opacity:.3;">字</span>
-            <span style="font-family:var(--font-h);font-size:1.7rem;font-weight:900;transform:skewX(-12deg);display:inline-block;color:var(--text-2);">字</span>
-            <span style="font-family:var(--font-h);font-size:1.7rem;font-weight:900;transform:skewX(-25deg);display:inline-block;background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">字</span>
-          </div>
+      <!-- Italic (hero feature) -->
+      <div class="feat wide rv">
+        <div class="feat-demo" style="gap:20px;">
+          <span style="font-family:var(--font-h);font-size:1.7rem;font-weight:900;color:var(--text-3);opacity:.3;">字</span>
+          <span style="font-family:var(--font-h);font-size:1.7rem;font-weight:900;transform:skewX(-8deg);display:inline-block;color:var(--text-3);opacity:.5;">字</span>
+          <span style="font-family:var(--font-h);font-size:1.7rem;font-weight:900;transform:skewX(-15deg);display:inline-block;color:var(--text-2);">字</span>
+          <span style="font-family:var(--font-h);font-size:1.7rem;font-weight:900;transform:skewX(-25deg);display:inline-block;background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">字</span>
+          <span style="font-family:var(--font-h);font-size:1.7rem;font-weight:900;transform:skewX(-35deg);display:inline-block;background:linear-gradient(135deg,#B08060,#9E7050);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">字</span>
         </div>
         <h4>斜體 0°–35°</h4>
-        <p>CJK 字體自由傾斜，Canva 原生做不到的功能</p>
+        <p>CJK 中文斜體自由傾斜——Canva 原生做不到的功能，FontFX 一鍵搞定</p>
       </div>
 
       <!-- Effects -->
-      <div class="feat wide rv rv-d1">
+      <div class="feat rv rv-d1">
         <div class="feat-demo" style="gap:18px;">
           <span style="font-family:var(--font-h);font-size:1.3rem;font-weight:900;color:var(--morandi-blue);text-shadow:0 0 8px rgba(143,165,181,0.5),0 0 18px rgba(143,165,181,0.25);">霓虹</span>
           <span style="font-family:var(--font-h);font-size:1.3rem;font-weight:900;color:var(--morandi-sand);text-shadow:1px 1px 0 #a89480,2px 2px 0 #96836e,3px 3px 0 #847264;">3D</span>
@@ -606,7 +607,7 @@ footer a:hover{color:var(--morandi-rose);}
         <p>內建中英文字體，還可上傳 TTF/OTF/WOFF2</p>
       </div>
 
-      <div class="feat rv rv-d2">
+      <div class="feat wide rv rv-d2">
         <div class="feat-demo">
           <div style="display:flex;align-items:center;gap:6px;">
             <div style="display:flex;gap:4px;align-items:flex-end;">
