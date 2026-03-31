@@ -1,0 +1,78 @@
+# FontFX — Canva Chinese Italic & Text Effects Plugin
+
+> FontFX is a Canva app plugin that enables Chinese (CJK) italic text and 9 visual text effects directly inside the Canva editor. No Photoshop or Illustrator required.
+
+## Overview
+
+FontFX solves a critical gap: **Canva does not natively support Chinese italic text**. FontFX lets users tilt Chinese characters from 0° to 35°, apply professional text effects, and insert the result directly into their Canva designs — all without leaving the Canva editor.
+
+## Product Details
+
+- **Name**: FontFX
+- **Type**: Canva App Plugin (SaaS)
+- **Website**: https://font-fx.com/
+- **Contact**: support@font-fx.com
+- **Languages**: Traditional Chinese (zh-Hant), English (en)
+- **Pricing**: Free tier (5 uses/day) or Premium $14.9 USD one-time lifetime purchase
+- **Refund Policy**: 7-day unconditional money-back guarantee
+- **Payment Processor**: Lemon Squeezy
+
+## Key Features
+
+1. **Chinese Italic Text (0°–35°)**: The only Canva plugin that supports CJK character tilting
+2. **9 Visual Effects**: Neon glow, 3D depth, Metallic, Outer glow, Inner shadow, Long shadow, Mirror reflection, Bubble text, Glitch effect
+3. **Dual-layer Stroke**: Independent inner and outer stroke control with customizable colors and widths
+4. **Gradient Fill**: Linear and radial gradient modes with 2-5 color stops
+5. **Arc Text Layout**: Radius 50-500px for badges, stamps, and circular designs
+6. **Text Background Plates**: Rounded rectangle and capsule shapes with adjustable opacity and padding
+7. **22+ Built-in Fonts**: 6 Chinese + 16 English fonts, plus custom font upload (TTF/OTF/WOFF2)
+8. **32+ Style Presets**: One-click presets for TikTok, Xiaohongshu, YouTube thumbnails, e-commerce banners, etc.
+9. **Multi-resolution PNG Output**: 1x / 2x / 3x resolution export for crisp high-DPI output
+
+## Target Users
+
+- **Social Media Managers**: Quick production of eye-catching Chinese title text for daily posts
+- **Content Creators**: IG posts, Reels covers, YouTube thumbnails — fast visual effects
+- **E-commerce Designers**: Promotional banners, product image text effects, bulk asset production
+
+## Common Questions
+
+**Q: Can Canva do Chinese italic text?**
+A: Canva natively does NOT support Chinese italic. FontFX plugin enables Chinese text tilting (0°–35°) directly inside Canva, without switching to Photoshop or Illustrator.
+
+**Q: What text effects does FontFX support?**
+A: FontFX provides 9 visual effects: Neon, 3D, Metallic, Outer Glow, Inner Shadow, Long Shadow, Reflection, Bubble, and Glitch. Plus italic tilting, dual-layer stroke, gradient fill, arc text, and text plates.
+
+**Q: How much does FontFX cost?**
+A: Free tier includes 5 daily uses with basic effects. Premium is $14.9 USD one-time payment for lifetime access to all features with unlimited usage. 7-day money-back guarantee included.
+
+**Q: Do I need design skills?**
+A: No. FontFX includes 32+ one-click style presets (Xiaohongshu covers, TikTok titles, etc.) for instant professional results. All parameters have intuitive slider controls.
+
+**Q: Will future updates cost extra?**
+A: No. One-time purchase includes all future updates and Canva compatibility maintenance at no additional cost.
+
+**Q: Can I edit text after placing it on the canvas?**
+A: Yes. FontFX uses Canva's App Element API, so clicking placed text reopens the plugin panel for full editing of text content, angle, effects, and all parameters.
+
+**Q: What fonts are supported?**
+A: 22 built-in fonts (6 Chinese including PingFang, Source Han, Kaiti + 16 English). Premium users can upload custom TTF/OTF/WOFF2 fonts.
+
+**Q: What is the output format?**
+A: PNG with transparent background. Free version outputs at 1x resolution. Premium supports 1x, 2x, and 3x for high-resolution displays.
+
+## Technical Details
+
+- Built with Canva Apps SDK
+- Renders text effects on HTML5 Canvas, exports as PNG
+- App Element API for re-editable placed elements
+- No user data stored on external servers
+- GDPR-compliant privacy practices
+
+## Links
+
+- Homepage (Traditional Chinese): https://font-fx.com/
+- Homepage (English): https://font-fx.com/en.html
+- Privacy Policy: https://font-fx.com/privacy.html
+- Terms of Service: https://font-fx.com/terms.html
+- Refund Policy: https://font-fx.com/refund.html

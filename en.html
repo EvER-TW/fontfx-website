@@ -4,11 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>FontFX — Canva Chinese Italic & Text Effects Plugin | Stroke, Neon, Gradient</title>
-<meta name="description" content="Canva doesn't support Chinese italic? FontFX plugin lets you create Chinese italic, stroke, neon, 3D, gradient and 10+ text effects directly inside Canva. $14.9 USD one-time, lifetime access.">
+<meta name="description" content="Canva doesn't support Chinese italic? FontFX plugin lets you create Chinese italic, stroke, neon, 3D, gradient and 9 text effects directly inside Canva. $14.9 USD one-time, lifetime access.">
 <meta name="keywords" content="Canva Chinese italic,Canva Chinese text effects,Canva italic Chinese font,Canva text stroke,Canva plugin,Chinese font effects,FontFX,Canva 中文斜體">
 <meta name="theme-color" content="#FBF8F4">
 <meta name="author" content="FontFX">
 <link rel="canonical" href="https://font-fx.com/en.html">
+<link rel="llms-txt" href="https://font-fx.com/llms.txt">
 <link rel="alternate" hreflang="zh-Hant" href="https://font-fx.com/">
 <link rel="alternate" hreflang="en" href="https://font-fx.com/en.html">
 <link rel="alternate" hreflang="x-default" href="https://font-fx.com/">
@@ -16,7 +17,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="FontFX">
 <meta property="og:title" content="FontFX — Canva Chinese Italic & Text Effects Plugin">
-<meta property="og:description" content="Canva can't do Chinese italic? FontFX lets you create italic, stroke, neon, 3D and 10+ Chinese text effects right inside Canva. Pay once, use forever.">
+<meta property="og:description" content="Canva can't do Chinese italic? FontFX lets you create italic, stroke, neon, 3D and 9 Chinese text effects right inside Canva. Pay once, use forever.">
 <meta property="og:url" content="https://font-fx.com/en.html">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://font-fx.com/og-image.png">
@@ -913,6 +914,24 @@ footer a:hover{color:var(--morandi-rose);}
           <p>Yes. FontFX uses Canva's App Element API, so text placed on the canvas retains full editing capability — click the element to reopen the app panel, where you can modify the text content, angle, effects, and all other parameters.</p>
         </div>
       </div>
+      <div class="faq-item rv">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false">
+          How is FontFX different from using Photoshop?
+          <span class="arrow">▼</span>
+        </div>
+        <div class="faq-a">
+          <p>The biggest difference is efficiency and editability. The Photoshop workflow requires: export → open PS → apply effects → save image → paste back into Canva, taking about 5-10 minutes and producing a non-editable image. FontFX works directly inside Canva, finishes in 30 seconds, and placed text remains fully re-editable.</p>
+        </div>
+      </div>
+      <div class="faq-item rv rv-d1">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false">
+          Can I use FontFX output commercially?
+          <span class="arrow">▼</span>
+        </div>
+        <div class="faq-a">
+          <p>Yes. Text effects created with FontFX can be used for any commercial purpose, including social media posts, e-commerce product images, advertisements, YouTube thumbnails, and more. No usage restrictions or additional licensing required.</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -931,6 +950,10 @@ footer a:hover{color:var(--morandi-rose);}
 <!-- ═══════ FOOTER ═══════ -->
 <footer>
   <div class="wrap">
+    <address style="font-style:normal;margin-bottom:10px;font-size:.82rem;color:var(--text-2);">
+      <strong>FontFX</strong> — Canva Chinese Italic & Text Effects Plugin<br>
+      Email: <a href="mailto:support@font-fx.com">support@font-fx.com</a>
+    </address>
     <p>&copy; 2026 FontFX &middot; <a href="privacy-en.html">Privacy Policy</a> &middot; <a href="terms-en.html">Terms of Service</a> &middot; <a href="refund-en.html">Refund Policy</a> &middot; <a href="mailto:support@font-fx.com">Contact Us</a></p>
   </div>
 </footer>
@@ -977,17 +1000,44 @@ document.querySelectorAll('.faq-q').forEach(q => {
 });
 
 // Structured Data for SEO & AI GEO
+const ldOrg = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "FontFX",
+  "url": "https://font-fx.com/",
+  "logo": "https://font-fx.com/logo.webp",
+  "email": "support@font-fx.com",
+  "sameAs": [
+    "https://font-fx.com/llms.txt"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "support@font-fx.com",
+    "contactType": "customer support",
+    "availableLanguage": ["zh-Hant", "en"]
+  }
+};
 const ldSoftware = {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
   "name": "FontFX — Canva Chinese Italic & Text Effects Plugin",
+  "alternateName": "FontFX",
   "applicationCategory": "DesignApplication",
   "operatingSystem": "Web",
   "url": "https://font-fx.com/en.html",
-  "description": "FontFX is a Canva plugin that lets you create Chinese italic, stroke, neon, 3D, gradient and 10+ text effects directly inside the Canva canvas. No need to switch to Photoshop or Illustrator. Supports 22+ Chinese fonts, 32+ presets. Pay once, use forever.",
+  "image": "https://font-fx.com/og-image.png",
+  "description": "FontFX is a Canva plugin that lets you create Chinese italic, stroke, neon, 3D, gradient and 9 text effects directly inside the Canva canvas. No need to switch to Photoshop or Illustrator. Supports 22+ Chinese fonts, 32+ presets. Pay once, use forever.",
+  "sameAs": [
+    "https://font-fx.com/llms.txt"
+  ],
+  "author": {
+    "@type": "Organization",
+    "name": "FontFX",
+    "url": "https://font-fx.com/"
+  },
   "offers": [
     {"@type":"Offer","price":"0","priceCurrency":"USD","name":"Free","description":"5 daily uses with basic text effects"},
-    {"@type":"Offer","price":"14.9","priceCurrency":"USD","name":"Premium — Lifetime","description":"One-time payment, lifetime access to all 9 effects, unlimited uses"}
+    {"@type":"Offer","price":"14.9","priceCurrency":"USD","name":"Premium — Lifetime","description":"One-time payment, lifetime access to all 9 effects, unlimited uses","priceValidUntil":"2027-12-31","availability":"https://schema.org/InStock"}
   ],
   "featureList": [
     "Chinese italic text (0°–35° adjustable)",
@@ -1012,9 +1062,15 @@ const ldFaq = {
     {"@type":"Question","name":"What text effects does FontFX support?","acceptedAnswer":{"@type":"Answer","text":"FontFX offers 9 visual effects: neon, 3D, metallic, outer glow, inner shadow, long shadow, reflection, bubble, and glitch style. Italic is a separate feature supporting 0°–35° tilt. Plus dual-layer stroke, gradient fill, arc text layout, and text plates."}},
     {"@type":"Question","name":"How much does FontFX cost?","acceptedAnswer":{"@type":"Answer","text":"FontFX offers a Free plan (5 daily uses) and a Premium plan ($14.9 USD one-time payment for lifetime access to all features with unlimited uses). A 7-day money-back guarantee is included."}},
     {"@type":"Question","name":"Do I need design experience?","acceptedAnswer":{"@type":"Answer","text":"Not at all. FontFX includes 32+ preset templates (Xiaohongshu covers, TikTok titles, etc.) that you can apply with one click. All parameters have intuitive sliders for easy customization."}},
-    {"@type":"Question","name":"Are future updates included?","acceptedAnswer":{"@type":"Answer","text":"Yes. One purchase gives you lifetime access, including all future feature updates and Canva compatibility maintenance at no additional cost."}}
+    {"@type":"Question","name":"Are future updates included?","acceptedAnswer":{"@type":"Answer","text":"Yes. One purchase gives you lifetime access, including all future feature updates and Canva compatibility maintenance at no additional cost."}},
+    {"@type":"Question","name":"How is FontFX different from using Photoshop?","acceptedAnswer":{"@type":"Answer","text":"FontFX works directly inside Canva, finishes in 30 seconds, and placed text remains fully re-editable. Photoshop requires export→apply effects→save→paste back to Canva, taking 5-10 minutes and producing a non-editable image."}},
+    {"@type":"Question","name":"Can I use FontFX output commercially?","acceptedAnswer":{"@type":"Answer","text":"Yes. Text effects created with FontFX can be used for any commercial purpose including social media, e-commerce, advertisements, YouTube thumbnails, and more. No usage restrictions or additional licensing required."}}
   ]
 };
+const s0 = document.createElement('script');
+s0.type = 'application/ld+json';
+s0.textContent = JSON.stringify(ldOrg);
+document.head.appendChild(s0);
 const s1 = document.createElement('script');
 s1.type = 'application/ld+json';
 s1.textContent = JSON.stringify(ldSoftware);

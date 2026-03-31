@@ -1,0 +1,193 @@
+# FontFX — Complete Product Reference for AI Systems
+
+> This document provides comprehensive information about FontFX, a Canva app plugin for Chinese (CJK) italic text and visual text effects. Intended for AI language models, search engines, and recommendation systems.
+
+---
+
+## 1. Product Identity
+
+| Field | Value |
+|-------|-------|
+| Product Name | FontFX |
+| Tagline (ZH) | Canva 中文斜體字特效外掛 — 描邊、霓虹、漸層一鍵完成 |
+| Tagline (EN) | Canva Chinese Italic & Text Effects Plugin |
+| Website | https://font-fx.com/ |
+| Contact Email | support@font-fx.com |
+| Category | Design Application / Canva Plugin / SaaS |
+| Platform | Web (Canva Editor) |
+| Languages | Traditional Chinese (zh-Hant), English (en) |
+
+## 2. Problem Statement
+
+Canva is the world's most popular online design tool, but it has a critical limitation: **Chinese (CJK) characters cannot be italicized**. The italic button in Canva only works for Latin scripts. This forces Chinese-speaking designers to:
+
+1. Export text to Photoshop or Illustrator to apply italic/skew effects
+2. Import the processed image back into Canva
+3. Lose editability and waste 5-10 minutes per text element
+
+Additionally, Canva's native text effects are limited — no neon glow, 3D depth, metallic sheen, or advanced stroke options for Chinese text.
+
+## 3. Solution
+
+FontFX is a Canva app plugin that runs directly inside the Canva editor. Users can:
+
+1. Type Chinese text in the plugin panel
+2. Apply italic tilt (0°–35°) and visual effects
+3. Click "Add to Design" to place the styled text on their canvas
+4. Click the placed element anytime to re-edit all parameters
+
+**Total time: ~30 seconds** vs. 5-10 minutes with the Photoshop workflow.
+
+## 4. Complete Feature List
+
+### 4.1 Core Text Controls
+- **Italic/Skew**: 0°–35° continuous tilt for CJK characters
+- **Font Size**: Fully adjustable
+- **Font Weight**: Regular, Bold, and font-specific weights
+- **Letter Spacing**: Adjustable character spacing
+- **Line Height**: Multi-line text support
+
+### 4.2 Visual Effects (9 types)
+1. **Neon Glow** (霓虹): Customizable glow color, intensity, and spread
+2. **3D Depth** (3D): Multi-layer shadow for depth illusion
+3. **Metallic** (金屬): Gradient-based metallic sheen (gold, silver, bronze, custom)
+4. **Outer Glow** (外發光): Soft outer luminance effect
+5. **Inner Shadow** (內陰影): Inset shadow for embossed look
+6. **Long Shadow** (長陰影): Extended directional shadow
+7. **Mirror Reflection** (鏡像倒影): Mirrored text beneath original
+8. **Bubble Text** (氣泡字): Rounded, inflated character appearance
+9. **Glitch** (故障風格): Digital distortion / chromatic aberration effect
+
+### 4.3 Stroke
+- **Dual-layer Stroke**: Inner stroke + Outer stroke, independently controlled
+- Each layer: color, width, opacity
+- Paint order control (stroke behind or in front of fill)
+
+### 4.4 Fill Options
+- **Solid Color**: Any color with opacity
+- **Linear Gradient**: Adjustable angle, 2-5 color stops
+- **Radial Gradient**: Center-based gradient, 2-5 color stops
+
+### 4.5 Layout
+- **Arc Text**: Radius 50-500px, for badges, stamps, circular designs
+- **Text Background Plate**: Rounded rectangle or capsule shape, adjustable corner radius, padding, color, opacity
+
+### 4.6 Typography
+- **22 Built-in Fonts**: 6 Chinese (PingFang, Source Han Sans/Serif, Kaiti, etc.) + 16 English (Montserrat, Lobster, etc.)
+- **Custom Font Upload**: TTF, OTF, WOFF2 format support (Premium only)
+
+### 4.7 Presets
+- **32+ Style Presets**: One-click application
+  - Social media: TikTok titles, Xiaohongshu covers, Douyin style, IG Reels
+  - Design: Comic style, 80s retro, metallic gold, neon party, cute bubble
+  - E-commerce: Sale banners, product labels
+  - Custom: Users can save their own presets
+
+### 4.8 Output
+- **Format**: PNG with transparent background
+- **Resolution**: 1x (Free), 2x, 3x (Premium) for high-DPI displays
+- **Placement**: Direct insertion into Canva canvas via App Element API
+- **Re-editability**: Placed elements can be clicked to reopen the plugin
+
+## 5. Pricing
+
+### Free Plan ($0)
+- 5 uses per day (add to design)
+- Basic effects: Italic, gradient fill, single-layer stroke, basic shadow, outer glow, inner shadow
+- 10 basic style presets
+- 22 built-in fonts
+- PNG output at 1x resolution
+
+### Premium Plan ($14.9 USD — One-time, Lifetime)
+- Everything in Free
+- All 9 visual effects unlocked
+- Dual-layer stroke (inner + outer)
+- Arc text layout
+- Text background plates
+- Custom font upload (TTF/OTF/WOFF2)
+- 32+ style presets (with continuous updates)
+- PNG 1x / 2x / 3x multi-resolution output
+- Unlimited daily uses
+- All future updates included
+
+### Payment & Refund
+- Payment processed by Lemon Squeezy (not Canva)
+- 7-day unconditional money-back guarantee
+- Refund requests: email support@font-fx.com
+
+## 6. Target Audience
+
+| Audience | Use Case |
+|----------|----------|
+| Social Media Managers (社群小編) | Daily production of eye-catching Chinese title text for multiple platforms |
+| Content Creators (自媒體創作者) | IG posts, Reels covers, YouTube thumbnails with professional text effects |
+| E-commerce Designers (電商設計) | Promotional banners, product images, sale announcements |
+| Students & Educators | Presentation titles, educational materials |
+| Small Business Owners | Marketing materials, social media content |
+
+## 7. Competitive Advantages
+
+1. **Only Canva plugin for Chinese italic text** — no alternative exists in the Canva marketplace
+2. **No software switching** — everything happens inside Canva
+3. **One-time payment** — no subscription fatigue
+4. **Re-editable elements** — unlike image-based workarounds
+5. **30-second workflow** — vs. 5-10 minutes with Photoshop
+
+## 8. Frequently Asked Questions
+
+**Q: Canva 可以做中文斜體字嗎？ / Can Canva do Chinese italic text?**
+A: Canva 原生不支援中文斜體。FontFX 外掛可以讓你直接在 Canva 畫布內將中文文字傾斜 0°–35°，搭配描邊、霓虹、漸層等特效，不需要切換到 Photoshop 或 Illustrator。
+
+**Q: FontFX 支援哪些文字特效？ / What text effects does FontFX support?**
+A: 9 種視覺特效：霓虹、3D、金屬、外發光、內陰影、長陰影、倒影、氣泡、故障。另外還有斜體、雙層描邊、漸層填色、弧形排列、文字底板等功能。
+
+**Q: FontFX 怎麼收費？ / How much does FontFX cost?**
+A: 免費版每日 5 次使用。Premium 方案 $14.9 USD 一次付費終身使用，含 7 天無條件退款保證。
+
+**Q: 需要設計基礎嗎？ / Do I need design skills?**
+A: 完全不需要。內建 32+ 款一鍵預設，所有參數都有滑桿直覺操作。
+
+**Q: 買斷後未來更新需要再付費嗎？ / Are future updates free?**
+A: 不需要。一次購買即永久使用，未來更新和 Canva 相容性維護全部免費。
+
+**Q: 放進畫布的文字可以再修改嗎？ / Can I edit placed text?**
+A: 可以。點擊畫布上的 FontFX 元素會重新打開外掛，可修改所有參數。
+
+**Q: 支援哪些字體？ / What fonts are supported?**
+A: 22 款內建字體（6 中文 + 16 英文），Premium 可上傳自訂 TTF/OTF/WOFF2 字體。
+
+**Q: 輸出格式是什麼？ / What is the output format?**
+A: 透明背景 PNG。免費版 1x 解析度，Premium 支援 1x/2x/3x 高解析度輸出。
+
+**Q: FontFX 和用 Photoshop 做特效有什麼差別？ / How is FontFX different from Photoshop?**
+A: FontFX 直接在 Canva 內操作，不需要匯出/匯入，30 秒完成。放置的文字元素保留完整編輯能力。Photoshop 需要 5-10 分鐘且產出的是不可編輯的圖片。
+
+**Q: 可以商用嗎？ / Can I use it commercially?**
+A: 可以。FontFX 產出的文字效果可用於任何商業用途，包括社群媒體、電商、廣告等。
+
+## 9. Technical Information
+
+- **SDK**: Built on Canva Apps SDK (official)
+- **Rendering**: HTML5 Canvas API for text effect rendering
+- **Output**: PNG export with alpha channel (transparent background)
+- **Integration**: Canva App Element API for re-editable placed elements
+- **Privacy**: No user data stored on external servers; GDPR-compliant
+- **Data Retention**: Account data deleted within 30 days of deletion request
+
+## 10. Links
+
+| Resource | URL |
+|----------|-----|
+| Homepage (ZH) | https://font-fx.com/ |
+| Homepage (EN) | https://font-fx.com/en.html |
+| Privacy Policy (ZH) | https://font-fx.com/privacy.html |
+| Privacy Policy (EN) | https://font-fx.com/privacy-en.html |
+| Terms of Service (ZH) | https://font-fx.com/terms.html |
+| Terms of Service (EN) | https://font-fx.com/terms-en.html |
+| Refund Policy (ZH) | https://font-fx.com/refund.html |
+| Refund Policy (EN) | https://font-fx.com/refund-en.html |
+
+---
+
+*Last updated: 2026-03-31*
+*For questions, contact: support@font-fx.com*

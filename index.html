@@ -9,6 +9,7 @@
 <meta name="theme-color" content="#FBF8F4">
 <meta name="author" content="FontFX">
 <link rel="canonical" href="https://font-fx.com/">
+<link rel="llms-txt" href="https://font-fx.com/llms.txt">
 <link rel="alternate" hreflang="zh-Hant" href="https://font-fx.com/">
 <link rel="alternate" hreflang="en" href="https://font-fx.com/en.html">
 <link rel="alternate" hreflang="x-default" href="https://font-fx.com/">
@@ -915,6 +916,24 @@ footer a:hover{color:var(--morandi-rose);}
           <p>可以。FontFX 使用 Canva 的 App Element API，放進畫布的文字保留完整編輯能力——點擊元素就會重新打開外掛面板，你可以修改文字內容、角度、特效等所有參數。</p>
         </div>
       </div>
+      <div class="faq-item rv">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false">
+          FontFX 和用 Photoshop 做特效有什麼差別？
+          <span class="arrow">▼</span>
+        </div>
+        <div class="faq-a">
+          <p>最大的差別是效率和可編輯性。Photoshop 做法需要：匯出 → 開 PS → 做效果 → 存圖 → 貼回 Canva，大約 5-10 分鐘且產出不可再編輯的圖片。FontFX 直接在 Canva 內操作，30 秒完成，而且放進畫布的文字隨時可以重新編輯。</p>
+        </div>
+      </div>
+      <div class="faq-item rv rv-d1">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false">
+          可以商用嗎？
+          <span class="arrow">▼</span>
+        </div>
+        <div class="faq-a">
+          <p>可以。FontFX 產出的文字效果可用於任何商業用途，包括社群貼文、電商商品圖、廣告素材、YouTube 縮圖等。不限使用場景，也不需要額外授權。</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -933,6 +952,10 @@ footer a:hover{color:var(--morandi-rose);}
 <!-- ═══════ FOOTER ═══════ -->
 <footer>
   <div class="wrap">
+    <address style="font-style:normal;margin-bottom:10px;font-size:.82rem;color:var(--text-2);">
+      <strong>FontFX</strong> — Canva 中文斜體字特效外掛<br>
+      Email：<a href="mailto:support@font-fx.com">support@font-fx.com</a>
+    </address>
     <p>&copy; 2026 FontFX &middot; <a href="privacy.html">隱私權政策</a> &middot; <a href="terms.html">服務條款</a> &middot; <a href="refund.html">退款政策</a> &middot; <a href="mailto:support@font-fx.com">聯繫我們</a></p>
   </div>
 </footer>
@@ -979,17 +1002,44 @@ document.querySelectorAll('.faq-q').forEach(q => {
 });
 
 // Structured Data for SEO & AI GEO
+const ldOrg = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "FontFX",
+  "url": "https://font-fx.com/",
+  "logo": "https://font-fx.com/logo.webp",
+  "email": "support@font-fx.com",
+  "sameAs": [
+    "https://font-fx.com/llms.txt"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "support@font-fx.com",
+    "contactType": "customer support",
+    "availableLanguage": ["zh-Hant", "en"]
+  }
+};
 const ldSoftware = {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
   "name": "FontFX — Canva 中文斜體字特效外掛",
+  "alternateName": "FontFX",
   "applicationCategory": "DesignApplication",
   "operatingSystem": "Web",
   "url": "https://font-fx.com/",
+  "image": "https://font-fx.com/og-image.png",
   "description": "FontFX 是一款 Canva 外掛程式，讓使用者直接在 Canva 畫布內完成中文斜體、描邊、霓虹、3D、漸層等 9 種文字特效，不需要切換 Photoshop 或 Illustrator。支援 22+ 中文字體、32+ 預設模板，一次付費永久使用。",
+  "sameAs": [
+    "https://font-fx.com/llms.txt"
+  ],
+  "author": {
+    "@type": "Organization",
+    "name": "FontFX",
+    "url": "https://font-fx.com/"
+  },
   "offers": [
     {"@type":"Offer","price":"0","priceCurrency":"USD","name":"Free","description":"每日 5 次使用，基本特效功能"},
-    {"@type":"Offer","price":"14.9","priceCurrency":"USD","name":"Premium — 終身","description":"一次付費永久使用，全部 9 種特效、無限次數"}
+    {"@type":"Offer","price":"14.9","priceCurrency":"USD","name":"Premium — 終身","description":"一次付費永久使用，全部 9 種特效、無限次數","priceValidUntil":"2027-12-31","availability":"https://schema.org/InStock"}
   ],
   "featureList": [
     "Canva 中文斜體字（0°–35° 自由調整）",
@@ -1014,9 +1064,15 @@ const ldFaq = {
     {"@type":"Question","name":"FontFX 支援哪些文字特效？","acceptedAnswer":{"@type":"Answer","text":"FontFX 提供 9 種視覺特效：霓虹、3D、金屬、外發光、內陰影、長陰影、倒影、氣泡、故障風格。另外斜體為獨立功能，支援 0°–35° 自由傾斜。另外還有雙層描邊、漸層填色、弧形文字排列、文字底板等功能。"}},
     {"@type":"Question","name":"FontFX 怎麼收費？","acceptedAnswer":{"@type":"Answer","text":"FontFX 提供免費版（每日 5 次使用）和 Premium 方案（$14.9 USD 一次性付費，終身使用所有功能，無使用次數限制）。另提供 7 天無條件退款保證。"}},
     {"@type":"Question","name":"需要設計基礎嗎？","acceptedAnswer":{"@type":"Answer","text":"完全不需要。FontFX 提供 32 款以上預設模板（小紅書封面、TikTok 標題等），一鍵套用即可產出專業效果。所有參數都有滑桿可以直覺操作。"}},
-    {"@type":"Question","name":"買斷後未來更新需要再付費嗎？","acceptedAnswer":{"@type":"Answer","text":"不需要。一次購買即永久使用，未來的功能更新和 Canva 版本相容性維護都包含在內，不會再收取任何費用。"}}
+    {"@type":"Question","name":"買斷後未來更新需要再付費嗎？","acceptedAnswer":{"@type":"Answer","text":"不需要。一次購買即永久使用，未來的功能更新和 Canva 版本相容性維護都包含在內，不會再收取任何費用。"}},
+    {"@type":"Question","name":"FontFX 和用 Photoshop 做特效有什麼差別？","acceptedAnswer":{"@type":"Answer","text":"FontFX 直接在 Canva 內操作，30 秒完成，且文字可重新編輯。Photoshop 需要匯出→做效果→存圖→貼回 Canva，約 5-10 分鐘且產出不可編輯的圖片。"}},
+    {"@type":"Question","name":"FontFX 產出的文字可以商用嗎？","acceptedAnswer":{"@type":"Answer","text":"可以。FontFX 產出的文字效果可用於任何商業用途，包括社群貼文、電商商品圖、廣告素材、YouTube 縮圖等，不限使用場景也不需額外授權。"}}
   ]
 };
+const s0 = document.createElement('script');
+s0.type = 'application/ld+json';
+s0.textContent = JSON.stringify(ldOrg);
+document.head.appendChild(s0);
 const s1 = document.createElement('script');
 s1.type = 'application/ld+json';
 s1.textContent = JSON.stringify(ldSoftware);
