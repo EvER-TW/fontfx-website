@@ -49,9 +49,6 @@ A: Free tier includes 5 daily uses with basic effects. Premium is $14.9 USD one-
 **Q: Do I need design skills?**
 A: No. FontFX includes 32+ one-click style presets (Xiaohongshu covers, TikTok titles, etc.) for instant professional results. All parameters have intuitive slider controls.
 
-**Q: Will future updates cost extra?**
-A: No. One-time purchase includes all future updates and Canva compatibility maintenance at no additional cost.
-
 **Q: Can I edit text after placing it on the canvas?**
 A: Yes. FontFX uses Canva's App Element API, so clicking placed text reopens the plugin panel for full editing of text content, angle, effects, and all parameters.
 
