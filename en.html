@@ -348,28 +348,44 @@ footer a:hover{color:var(--morandi-rose);}
 
     <!-- Before / After -->
     <div class="compare-box rv rv-d1">
-      <p class="compare-label">Same text, worlds apart</p>
+      <p class="compare-label">Same text — with and without italic</p>
       <div class="compare-grid">
-        <!-- BEFORE -->
-        <div class="compare-side before">
+        <!-- BEFORE: straight, plain, weak -->
+        <div class="compare-side before" style="background:#EFEBE4;padding:32px 22px;">
           <span class="compare-tag bad">Canva Native</span>
-          <span style="font-family:'Noto Serif TC',serif;font-size:2.5rem;font-weight:900;color:var(--text-3);opacity:.35;margin-bottom:10px;">創意設計</span>
-          <div style="display:flex;gap:6px;flex-wrap:wrap;justify-content:center;">
-            <span style="font-size:.62rem;padding:2px 8px;background:rgba(160,145,125,0.1);color:var(--text-3);border-radius:100px;">No italic</span>
-            <span style="font-size:.62rem;padding:2px 8px;background:rgba(160,145,125,0.1);color:var(--text-3);border-radius:100px;">No effects</span>
-            <span style="font-size:.62rem;padding:2px 8px;background:rgba(160,145,125,0.1);color:var(--text-3);border-radius:100px;">No stroke</span>
+          <div style="width:100%;text-align:center;">
+            <div style="font-family:'Noto Serif TC',serif;font-size:clamp(1.8rem,4.5vw,2.5rem);font-weight:900;color:var(--text-3);opacity:.25;line-height:1.25;margin:16px 0 8px;">秋季穿搭<br>靈感分享</div>
+            <div style="font-size:.68rem;color:var(--text-3);opacity:.3;margin-top:4px;">— Text can only go straight —</div>
+          </div>
+          <div style="margin-top:14px;">
+            <span style="font-size:.62rem;padding:3px 12px;background:rgba(160,145,125,0.1);color:var(--text-3);border-radius:100px;">No Chinese italic ✕</span>
           </div>
         </div>
 
         <!-- ARROW -->
         <div class="compare-arrow">→</div>
 
-        <!-- AFTER -->
-        <div class="compare-side after">
+        <!-- AFTER: italic + decorative lines -->
+        <div class="compare-side after" style="background:linear-gradient(145deg,#E8E0D4,#DDD5C8);padding:32px 22px;position:relative;overflow:hidden;">
           <span class="compare-tag good">FontFX</span>
-          <span style="font-family:'Noto Serif TC',serif;font-size:2.5rem;font-weight:900;display:inline-block;transform:skewX(-12deg);background:linear-gradient(135deg,#B08060,#C4A68E);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;filter:drop-shadow(0 2px 8px rgba(176,128,96,0.25));margin-bottom:8px;">創意設計</span>
-          <span style="font-family:'Noto Serif TC',serif;font-size:1.2rem;font-weight:700;color:var(--morandi-blue);text-shadow:0 0 8px rgba(140,154,165,0.45),0 0 18px rgba(140,154,165,0.2);margin-bottom:4px;">Soft glow effect</span>
-          <span style="font-family:'Noto Serif TC',serif;font-size:1.05rem;font-weight:900;color:var(--morandi-peach);-webkit-text-stroke:1.5px var(--text);paint-order:stroke fill;text-shadow:1px 1px 0 rgba(60,50,40,.12);">Stroke style text</span>
+          <div style="position:absolute;inset:0;opacity:.06;background-image:url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%224%22 height=%224%22><rect width=%224%22 height=%224%22 fill=%22%23000%22 fill-opacity=%220.03%22/><rect x=%221%22 y=%221%22 width=%221%22 height=%221%22 fill=%22%23000%22 fill-opacity=%220.05%22/></svg>');pointer-events:none;"></div>
+          <div style="width:100%;text-align:center;position:relative;">
+            <div style="display:flex;align-items:center;gap:10px;justify-content:center;margin-bottom:10px;">
+              <span style="flex:1;height:1px;background:var(--accent-deep);opacity:.35;"></span>
+              <span style="font-family:var(--font-m);font-size:.5rem;color:var(--accent-deep);background:rgba(176,128,96,0.15);padding:2px 10px;border-radius:2px;letter-spacing:.06em;">2025/10</span>
+              <span style="flex:1;height:1px;background:var(--accent-deep);opacity:.35;"></span>
+            </div>
+            <div style="display:inline-flex;flex-direction:column;align-items:flex-start;margin:6px 0;">
+              <span style="font-family:'Noto Serif TC',serif;font-size:clamp(2rem,5vw,2.8rem);font-weight:900;color:var(--accent-deep);line-height:1.2;display:inline-block;transform:skewX(-13deg);text-shadow:1px 1px 0 rgba(140,98,68,0.08);">秋季穿搭</span>
+              <span style="font-family:'Noto Serif TC',serif;font-size:clamp(2rem,5vw,2.8rem);font-weight:900;color:var(--accent-deep);line-height:1.2;display:inline-block;transform:skewX(-13deg);text-shadow:1px 1px 0 rgba(140,98,68,0.08);">靈感分享</span>
+            </div>
+            <div style="display:flex;align-items:center;justify-content:flex-end;gap:6px;margin-top:10px;">
+              <span style="font-family:var(--font-b);font-size:.52rem;color:var(--accent);font-style:italic;letter-spacing:.04em;">Autumn Lookbook</span>
+            </div>
+            <div style="display:flex;align-items:center;gap:10px;justify-content:center;margin-top:10px;">
+              <span style="flex:1;height:1px;background:var(--accent-deep);opacity:.35;"></span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
