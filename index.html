@@ -26,12 +26,10 @@
 <meta name="twitter:title" content="FontFX — Canva 中文斜體字特效外掛">
 <meta name="twitter:description" content="直接在 Canva 畫布內完成中文斜體、描邊、霓虹、漸層等 9 種文字特效。不用再切換 Photoshop。">
 <link rel="preload" href="fonts/noto-sans-tc-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="fonts/noto-serif-tc-900.woff2" as="font" type="font/woff2" crossorigin>
 <style>
 @font-face{font-family:'Noto Sans TC';font-weight:400;font-display:swap;src:url('fonts/noto-sans-tc-400.woff2') format('woff2');}
 @font-face{font-family:'Noto Sans TC';font-weight:700;font-display:swap;src:url('fonts/noto-sans-tc-700.woff2') format('woff2');}
-@font-face{font-family:'Noto Serif TC';font-weight:700;font-display:swap;src:url('fonts/noto-serif-tc-700.woff2') format('woff2');}
-@font-face{font-family:'Noto Serif TC';font-weight:900;font-display:swap;src:url('fonts/noto-serif-tc-900.woff2') format('woff2');}
+@font-face{font-family:'Noto Serif TC';font-weight:600 900;font-display:swap;src:url('fonts/noto-serif-tc-900.woff2') format('woff2');}
 :root {
   --bg: #FAF8F5;
   --bg-warm: #F3EEE7;
@@ -75,7 +73,7 @@ img{max-width:100%;height:auto;}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:0.01ms!important;transition-duration:0.01ms!important;scroll-behavior:auto!important;}}
 :focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px;}
 .wrap{max-width:1060px;margin:0 auto;padding:0 24px;position:relative;}
-section{padding:80px 0;}
+section{padding:80px 0;content-visibility:auto;contain-intrinsic-size:auto 600px;}
 .rv{opacity:0;transform:translateY(24px);transition:opacity .7s var(--ease),transform .7s var(--ease);}
 .rv.v{opacity:1;transform:translateY(0);}
 .rv-d1{transition-delay:.1s;}.rv-d2{transition-delay:.2s;}.rv-d3{transition-delay:.3s;}
@@ -943,126 +941,23 @@ footer a:hover{color:var(--morandi-rose);}
   </div>
 </footer>
 
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"FontFX","url":"https://font-fx.com/","logo":"https://font-fx.com/logo.webp","email":"support@font-fx.com","sameAs":["https://font-fx.com/llms.txt"],"contactPoint":{"@type":"ContactPoint","email":"support@font-fx.com","contactType":"customer support","availableLanguage":["zh-Hant","en"]}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"FontFX — Canva 中文斜體字特效外掛","alternateName":"FontFX","applicationCategory":"DesignApplication","operatingSystem":"Web","url":"https://font-fx.com/","image":"https://font-fx.com/og-image.png","description":"FontFX 是一款 Canva 外掛程式，讓使用者直接在 Canva 畫布內完成中文斜體、描邊、霓虹、3D、漸層等 9 種文字特效，不需要切換 Photoshop 或 Illustrator。支援 22+ 中文字體、32+ 預設模板，一次付費永久使用。","sameAs":["https://font-fx.com/llms.txt"],"author":{"@type":"Organization","name":"FontFX","url":"https://font-fx.com/"},"offers":[{"@type":"Offer","price":"0","priceCurrency":"USD","name":"Free","description":"每日 5 次使用，基本特效功能"},{"@type":"Offer","price":"14.9","priceCurrency":"USD","name":"Premium — 終身","description":"一次付費永久使用，全部 9 種特效、無限次數","priceValidUntil":"2027-12-31","availability":"https://schema.org/InStock"}],"featureList":["Canva 中文斜體字（0°–35° 自由調整）","9 種文字特效：霓虹、3D、金屬、外發光、內陰影、長陰影、倒影、氣泡、故障風格","雙層描邊控制","漸層填色","弧形文字排列","文字底板","22+ 中文字體","32+ 預設模板","PNG 1x/2x/3x 多解析度輸出","自訂字體上傳"],"screenshot":"https://font-fx.com/og-image.png","softwareHelp":{"@type":"WebPage","url":"https://font-fx.com/#faq"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Canva 可以做中文斜體字嗎？","acceptedAnswer":{"@type":"Answer","text":"Canva 原生不支援中文斜體。但透過 FontFX 外掛，你可以在 Canva 畫布內直接將中文文字傾斜 0°–35°，不需要切換到 Photoshop 或 Illustrator。"}},{"@type":"Question","name":"FontFX 支援哪些文字特效？","acceptedAnswer":{"@type":"Answer","text":"FontFX 提供 9 種視覺特效：霓虹、3D、金屬、外發光、內陰影、長陰影、倒影、氣泡、故障風格。另外斜體為獨立功能，支援 0°–35° 自由傾斜。另外還有雙層描邊、漸層填色、弧形文字排列、文字底板等功能。"}},{"@type":"Question","name":"FontFX 怎麼收費？","acceptedAnswer":{"@type":"Answer","text":"FontFX 提供免費版（每日 5 次使用）和 Premium 方案（$14.9 USD 一次性付費，終身使用所有功能，無使用次數限制）。另提供 7 天無條件退款保證。"}},{"@type":"Question","name":"需要設計基礎嗎？","acceptedAnswer":{"@type":"Answer","text":"完全不需要。FontFX 提供 32 款以上預設模板（小紅書封面、TikTok 標題等），一鍵套用即可產出專業效果。所有參數都有滑桿可以直覺操作。"}},{"@type":"Question","name":"FontFX 和用 Photoshop 做特效有什麼差別？","acceptedAnswer":{"@type":"Answer","text":"FontFX 直接在 Canva 內操作，30 秒完成，且文字可重新編輯。Photoshop 需要匯出→做效果→存圖→貼回 Canva，約 5-10 分鐘且產出不可編輯的圖片。"}},{"@type":"Question","name":"FontFX 產出的文字可以商用嗎？","acceptedAnswer":{"@type":"Answer","text":"可以。FontFX 產出的文字效果可用於任何商業用途，包括社群貼文、電商商品圖、廣告素材、YouTube 縮圖等，不限使用場景也不需額外授權。"}}]}</script>
 <script>
-// Showcase infinite scroll: duplicate cards for seamless loop
+// Showcase infinite scroll
 const track = document.getElementById('showcaseTrack');
 if (track) { track.innerHTML += track.innerHTML; }
-
 // Hamburger menu
 const hamburger = document.querySelector('.nav-hamburger');
 const navMobile = document.getElementById('navMobile');
-hamburger.addEventListener('click', () => {
-  hamburger.classList.toggle('open');
-  navMobile.classList.toggle('open');
-  document.body.style.overflow = navMobile.classList.contains('open') ? 'hidden' : '';
-});
-navMobile.querySelectorAll('a').forEach(a => {
-  a.addEventListener('click', () => {
-    hamburger.classList.remove('open');
-    navMobile.classList.remove('open');
-    document.body.style.overflow = '';
-  });
-});
-
+hamburger.addEventListener('click', () => { hamburger.classList.toggle('open'); navMobile.classList.toggle('open'); document.body.style.overflow = navMobile.classList.contains('open') ? 'hidden' : ''; });
+navMobile.querySelectorAll('a').forEach(a => { a.addEventListener('click', () => { hamburger.classList.remove('open'); navMobile.classList.remove('open'); document.body.style.overflow = ''; }); });
 // Scroll reveal
-const obs = new IntersectionObserver(es => {
-  es.forEach(e => { if (e.isIntersecting) e.target.classList.add('v'); });
-}, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+const obs = new IntersectionObserver(es => { es.forEach(e => { if (e.isIntersecting) e.target.classList.add('v'); }); }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
 document.querySelectorAll('.rv').forEach(el => obs.observe(el));
-
 // FAQ toggle
-document.querySelectorAll('.faq-q').forEach(q => {
-  q.addEventListener('click', () => {
-    const item = q.parentElement;
-    const wasOpen = item.classList.contains('open');
-    document.querySelectorAll('.faq-item.open').forEach(i => i.classList.remove('open'));
-    if (!wasOpen) item.classList.add('open');
-    q.setAttribute('aria-expanded', !wasOpen);
-  });
-  q.addEventListener('keydown', (e) => {
-    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); q.click(); }
-  });
-});
-
-// Structured Data for SEO & AI GEO
-const ldOrg = {
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "FontFX",
-  "url": "https://font-fx.com/",
-  "logo": "https://font-fx.com/logo.webp",
-  "email": "support@font-fx.com",
-  "sameAs": [
-    "https://font-fx.com/llms.txt"
-  ],
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "email": "support@font-fx.com",
-    "contactType": "customer support",
-    "availableLanguage": ["zh-Hant", "en"]
-  }
-};
-const ldSoftware = {
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "FontFX — Canva 中文斜體字特效外掛",
-  "alternateName": "FontFX",
-  "applicationCategory": "DesignApplication",
-  "operatingSystem": "Web",
-  "url": "https://font-fx.com/",
-  "image": "https://font-fx.com/og-image.png",
-  "description": "FontFX 是一款 Canva 外掛程式，讓使用者直接在 Canva 畫布內完成中文斜體、描邊、霓虹、3D、漸層等 9 種文字特效，不需要切換 Photoshop 或 Illustrator。支援 22+ 中文字體、32+ 預設模板，一次付費永久使用。",
-  "sameAs": [
-    "https://font-fx.com/llms.txt"
-  ],
-  "author": {
-    "@type": "Organization",
-    "name": "FontFX",
-    "url": "https://font-fx.com/"
-  },
-  "offers": [
-    {"@type":"Offer","price":"0","priceCurrency":"USD","name":"Free","description":"每日 5 次使用，基本特效功能"},
-    {"@type":"Offer","price":"14.9","priceCurrency":"USD","name":"Premium — 終身","description":"一次付費永久使用，全部 9 種特效、無限次數","priceValidUntil":"2027-12-31","availability":"https://schema.org/InStock"}
-  ],
-  "featureList": [
-    "Canva 中文斜體字（0°–35° 自由調整）",
-    "9 種文字特效：霓虹、3D、金屬、外發光、內陰影、長陰影、倒影、氣泡、故障風格",
-    "雙層描邊控制",
-    "漸層填色",
-    "弧形文字排列",
-    "文字底板",
-    "22+ 中文字體",
-    "32+ 預設模板",
-    "PNG 1x/2x/3x 多解析度輸出",
-    "自訂字體上傳"
-  ],
-  "screenshot": "https://font-fx.com/og-image.png",
-  "softwareHelp": {"@type":"WebPage","url":"https://font-fx.com/#faq"}
-};
-const ldFaq = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {"@type":"Question","name":"Canva 可以做中文斜體字嗎？","acceptedAnswer":{"@type":"Answer","text":"Canva 原生不支援中文斜體。但透過 FontFX 外掛，你可以在 Canva 畫布內直接將中文文字傾斜 0°–35°，不需要切換到 Photoshop 或 Illustrator。"}},
-    {"@type":"Question","name":"FontFX 支援哪些文字特效？","acceptedAnswer":{"@type":"Answer","text":"FontFX 提供 9 種視覺特效：霓虹、3D、金屬、外發光、內陰影、長陰影、倒影、氣泡、故障風格。另外斜體為獨立功能，支援 0°–35° 自由傾斜。另外還有雙層描邊、漸層填色、弧形文字排列、文字底板等功能。"}},
-    {"@type":"Question","name":"FontFX 怎麼收費？","acceptedAnswer":{"@type":"Answer","text":"FontFX 提供免費版（每日 5 次使用）和 Premium 方案（$14.9 USD 一次性付費，終身使用所有功能，無使用次數限制）。另提供 7 天無條件退款保證。"}},
-    {"@type":"Question","name":"需要設計基礎嗎？","acceptedAnswer":{"@type":"Answer","text":"完全不需要。FontFX 提供 32 款以上預設模板（小紅書封面、TikTok 標題等），一鍵套用即可產出專業效果。所有參數都有滑桿可以直覺操作。"}},
-    {"@type":"Question","name":"FontFX 和用 Photoshop 做特效有什麼差別？","acceptedAnswer":{"@type":"Answer","text":"FontFX 直接在 Canva 內操作，30 秒完成，且文字可重新編輯。Photoshop 需要匯出→做效果→存圖→貼回 Canva，約 5-10 分鐘且產出不可編輯的圖片。"}},
-    {"@type":"Question","name":"FontFX 產出的文字可以商用嗎？","acceptedAnswer":{"@type":"Answer","text":"可以。FontFX 產出的文字效果可用於任何商業用途，包括社群貼文、電商商品圖、廣告素材、YouTube 縮圖等，不限使用場景也不需額外授權。"}}
-  ]
-};
-const s0 = document.createElement('script');
-s0.type = 'application/ld+json';
-s0.textContent = JSON.stringify(ldOrg);
-document.head.appendChild(s0);
-const s1 = document.createElement('script');
-s1.type = 'application/ld+json';
-s1.textContent = JSON.stringify(ldSoftware);
-document.head.appendChild(s1);
-const s2 = document.createElement('script');
-s2.type = 'application/ld+json';
-s2.textContent = JSON.stringify(ldFaq);
-document.head.appendChild(s2);
+document.querySelectorAll('.faq-q').forEach(q => { q.addEventListener('click', () => { const item = q.parentElement; const wasOpen = item.classList.contains('open'); document.querySelectorAll('.faq-item.open').forEach(i => i.classList.remove('open')); if (!wasOpen) item.classList.add('open'); q.setAttribute('aria-expanded', !wasOpen); }); q.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); q.click(); } }); });
 </script>
 </body>
 </html>
